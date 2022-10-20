@@ -1,0 +1,32 @@
+            <div>
+                <h5>hello admin</h5>
+                <h5>View the status of your agents and the evolution of their latest alerts </h5>
+                <br>
+                <h3>Installed agents with their status</h3>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                 Total agents <br><span style="color:rgb(0, 107, 180)">{{countA()}}</span>
+                </div>
+                <div class="card">
+                  Active agents <br><span style="color:rgb(0, 120, 113)">{{getCount()}}</span>
+                </div>
+                <div class="card">
+                   Disconnected agents<br><span style="color:rgb(189, 39, 30)">{{getCount2()}}</span>
+                  
+                </div>
+                <div class="card">
+                   Pending agents<br><span style="color:rgb(254, 197, 20)">{{getCount3()}}</span>
+                  
+                </div>
+                <div class="card">
+                  Never connected agents<br><span style="color: rgb(100, 106, 119) ">{{getCount4()}}</span>
+                    
+                </div>
+            </div>
+
+
+
+          
+
