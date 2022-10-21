@@ -47,11 +47,11 @@ export class AgentComponent implements OnInit {
   }
 
   getCount3() {
-    return this.results.filter(o => o.status == 'waiting').length;
+    return this.results.filter(o => o.status == 'pending').length;
   }
   
   getCount4() {
-    return this.results.filter(o => o.status == 'noconnected').length;
+    return this.results.filter(o => o.status == 'never_connected').length;
   }
   
 

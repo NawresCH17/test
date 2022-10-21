@@ -1,3 +1,3 @@
 export enum State{
-    active,disconnected,waiting,noconnected
+    active,disconnected,pending,never_connected
 }
